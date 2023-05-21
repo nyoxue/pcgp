@@ -5,7 +5,7 @@ set C=1
 
 set program="pcgp.exe"
 set workdir="pcgp-%N%-%K%-%C%"
-set arguments="%N% %K% %C%"
+set arguments="s %N% %K% %C%"
 mkdir "%workdir%"
 start /WAIT /B /D "%workdir%" "" "%program%" "%arguments%"
 pause
